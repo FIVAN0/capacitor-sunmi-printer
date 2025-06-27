@@ -1,4 +1,4 @@
-package dev.duma.capacitor.sunmiprinter.example;
+package dev.fivan0.capacitor.sunmiprinter.example;
 
 import com.getcapacitor.BridgeActivity;
 

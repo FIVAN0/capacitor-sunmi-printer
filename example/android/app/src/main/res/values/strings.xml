@@ -1,7 +1,9 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <resources>
-    <string name="app_name">Sunmi Print plugin for Capacitor.js</string>
+    <string name="app_name">
+        Sunmi Print plugin for Capacitor.js (FIVAN0 Fork from @kduma-autoid/capacitor-sunmi-printer)
+    </string>
     <string name="title_activity_main">Print Plugin</string>
-    <string name="package_name">dev.duma.capacitor.sunmiprinter.example</string>
-    <string name="custom_url_scheme">dev.duma.capacitor.sunmiprinter.example</string>
+    <string name="package_name">dev.fivan0.capacitor.sunmiprinter.example</string>
+    <string name="custom_url_scheme">dev.fivan0.capacitor.sunmiprinter.example</string>
 </resources>

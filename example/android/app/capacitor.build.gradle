@@ -2,16 +2,15 @@
 
 android {
   compileOptions {
-      sourceCompatibility JavaVersion.VERSION_17
-      targetCompatibility JavaVersion.VERSION_17
+      sourceCompatibility JavaVersion.VERSION_21
+      targetCompatibility JavaVersion.VERSION_21
   }
 }
 
 apply from: "../capacitor-cordova-android-plugins/cordova.variables.gradle"
 dependencies {
     implementation project(':capacitor-splash-screen')
-    implementation project(':kduma-autoid-capacitor-sunmi-printer')
-    implementation project(':kduma-autoid-capacitor-webview-watchdog')
+    implementation project(':fivan0-capacitor-sunmi-printer')
 
 }
 

@@ -1,14 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace "dev.duma.capacitor.sunmiprinter.example"
+    namespace "dev.fivan0.capacitor.sunmiprinter.example"
     compileSdk rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "dev.duma.capacitor.sunmiprinter.example"
+        applicationId "dev.fivan0.capacitor.sunmiprinter.example"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 15
-        versionName "0.5.6"
+        versionName "0.5.7"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {
              // Files and dirs to omit from the packaged assets dir, modified to accommodate modern web apps.

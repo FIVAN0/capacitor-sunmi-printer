@@ -2,15 +2,15 @@ vars:
   BUILD_NUMBER:
     default: 15
   VERSION_NAME:
-    default: 0.5.6
+    default: 0.5.7
   APP_NAME:
-    default: Sunmi Print plugin for Capacitor.js
+    default: Sunmi Print plugin for Capacitor.js (FIVAN0 Fork from @kduma-autoid/capacitor-sunmi-printer)
   SHORT_APP_NAME:
     default: Print Plugin
   PACKAGE_NAME:
-    default: dev.duma.capacitor.sunmiprinter
+    default: dev.fivan0.capacitor.sunmiprinter
   EXAMPLE_PACKAGE_NAME:
-    default: dev.duma.capacitor.sunmiprinter.example
+    default: dev.fivan0.capacitor.sunmiprinter.example
 
 
 platforms:

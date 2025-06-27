@@ -11,8 +11,7 @@ import {
     LcdCommandEnum,
     PrinterStyleKeysEnum,
     PrinterStyleValuesEnum
-} from "@kduma-autoid/capacitor-sunmi-printer";
-import {WebViewWatchDog} from "@kduma-autoid/capacitor-webview-watchdog";
+} from "@fivan0/capacitor-sunmi-printer";
 
 window.customElements.define(
   'capacitor-welcome',
@@ -21,7 +20,6 @@ window.customElements.define(
       super();
 
       SplashScreen.hide();
-      WebViewWatchDog.ping();
 
       const root = this.attachShadow({ mode: 'open' });
 
@@ -71,7 +69,7 @@ window.customElements.define(
     </style>
     <div>
       <capacitor-welcome-titlebar>
-        <h1>@kduma-autoid/capacitor-sunmi-printer</h1>
+        <h1>@kduma-autoid/capacitor-sunmi-printer forked to @fivan0/capacitor-sunmi-printer</h1>
       </capacitor-welcome-titlebar>
       <main>
         <p>
