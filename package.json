@@ -1,7 +1,7 @@
 {
   "name": "@fivan0/capacitor-sunmi-printer",
   "version": "0.5.7",
-  "description": "Adapter for printing on internal printers of Sunmi POS devices (Capacitor v7 compatible fork)",
+  "description": "Capacitor v7 compatible fork of @kduma-autoid/capacitor-sunmi-printer - Adapter for printing on internal printers of Sunmi POS devices",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -11,7 +11,7 @@
     "android/build.gradle",
     "dist/"
   ],
-  "author": "Krystian Duma (forked by FIVAN0 [Arjen Pit])",
+  "author": "Krystian Duma (original) - forked by FIVAN0 [Arjen Pit]",
   "license": "MIT",
   "repository": {
     "type": "git",
