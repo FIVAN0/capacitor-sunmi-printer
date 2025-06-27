@@ -5,5 +5,5 @@ project(':capacitor-android').projectDir = new File('../node_modules/@capacitor/
 include ':capacitor-splash-screen'
 project(':capacitor-splash-screen').projectDir = new File('../node_modules/@capacitor/splash-screen/android')
 
-include ':fivan0-capacitor-sunmi-printer'
-project(':fivan0-capacitor-sunmi-printer').projectDir = new File('../../android')
+include ':capacitor-sunmi-printer-v7'
+project(':capacitor-sunmi-printer-v7').projectDir = new File('../../android')

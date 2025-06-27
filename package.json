@@ -1,5 +1,5 @@
 {
-  "name": "@fivan0/capacitor-sunmi-printer",
+  "name": "capacitor-sunmi-printer-v7",
   "version": "0.5.7",
   "description": "Capacitor v7 compatible fork of @kduma-autoid/capacitor-sunmi-printer - Adapter for printing on internal printers of Sunmi POS devices",
   "main": "dist/plugin.cjs.js",

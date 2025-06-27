@@ -10,7 +10,7 @@ android {
 apply from: "../capacitor-cordova-android-plugins/cordova.variables.gradle"
 dependencies {
     implementation project(':capacitor-splash-screen')
-    implementation project(':fivan0-capacitor-sunmi-printer')
+    implementation project(':capacitor-sunmi-printer-v7')
 
 }
 

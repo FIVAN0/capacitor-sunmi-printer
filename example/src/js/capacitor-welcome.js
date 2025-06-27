@@ -11,7 +11,7 @@ import {
     LcdCommandEnum,
     PrinterStyleKeysEnum,
     PrinterStyleValuesEnum
-} from "@fivan0/capacitor-sunmi-printer";
+} from "capacitor-sunmi-printer-v7";
 
 window.customElements.define(
   'capacitor-welcome',
@@ -69,7 +69,7 @@ window.customElements.define(
     </style>
     <div>
       <capacitor-welcome-titlebar>
-        <h1>@kduma-autoid/capacitor-sunmi-printer forked to @fivan0/capacitor-sunmi-printer</h1>
+        <h1>capacitor-sunmi-printer-v7 forked from @kduma-autoid/capacitor-sunmi-printer</h1>
       </capacitor-welcome-titlebar>
       <main>
         <p>
