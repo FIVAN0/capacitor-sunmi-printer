@@ -18,11 +18,12 @@ I will not be updating, or guaranteeing functionality or service for this packag
 
 ## Tested Devices
 
-Tested and works on both our Sunmi T2 and Sunmi T3 Pro Max, but we only use 4 methods:
+Tested and works on both Sunmi T2 and Sunmi T3 Pro Max, but tested only using these 5 methods:
 - `SunmiPrinter.getServiceStatus()`
 - `SunmiPrinter.enterPrinterBuffer()`
 - `SunmiPrinter.sendRAWBase64Data({data: string})`
 - `SunmiPrinter.exitPrinterBuffer()`
+- `SunmiPrinter.openDrawer()`
 
 ## Install
 
