@@ -12,9 +12,14 @@ This is a Capacitor v7 compatible version of the original Sunmi printer plugin. 
 
 **Original author:** Krystian Duma (@kduma-autoid)
 
+## Notice
+
+I will not be updating, or guaranteeing functionality or service for this package beyond my own needs. I just wanted an updated version to capacitor v7 so I don't need to 'npm install --legacy-peer-deps' all the time. Follow the original package, if it ever updates I will switch back to it as well.
+
 ## Tested Devices
 
-Tested and works on our Sunmi T3 Pro Max, but we only use 3 methods:
+Tested and works on both our Sunmi T2 and Sunmi T3 Pro Max, but we only use 4 methods:
+- `SunmiPrinter.getServiceStatus()`
 - `SunmiPrinter.enterPrinterBuffer()`
 - `SunmiPrinter.sendRAWBase64Data({data: string})`
 - `SunmiPrinter.exitPrinterBuffer()`
@@ -26,6 +31,7 @@ npm install capacitor-sunmi-printer-v7
 npx cap sync
 ```
 
+Unaltered from original readme:
 ## Configuration
 
 You can disable auto binding of the service by setting `bindOnLoad` to `false` in the plugin configuration in `capacitor.config.ts`. 
